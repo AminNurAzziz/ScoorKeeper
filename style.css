@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.card-score {
+    margin-top: 20px;
+}
+
+.card-score p {
+    font-size: 18px;
+    margin: 5px 0 15px 0;
+    color: #4a4a4a;
+}
+
+.play {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.play p {
+    display: inline;
+    font-weight: bold;
+}
+
+.select {
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px 10px;
+}
+
+.papan {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tim1,
+.tim2,
+.batas {
+    padding: 10px;
+}
+
+.card-gambar img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0% 0%;
+
+}
+
+section {
+    /* margin-top: 2000px; */
+    width: 40%;
+    overflow: hidden;
+    margin: 40px auto;
+    /* background-color: wheat; */
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.header {
+    margin-top: -2px;
+}
+
+.header h4 {
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px -4px 5px 1px;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.button button:nth-child(1) {
+    background-color: #00d1b2;
+}
+
+.button button:nth-child(2) {
+    background-color: #3298dc;
+}
+
+.button button:nth-child(3) {
+    background-color: #f14668;
+}
+
+button,
+select {
+    cursor: pointer;
+}
+
+.content {
+    padding: 0px 30px 30px 30px;
+}
